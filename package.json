@@ -1,0 +1,22 @@
+{
+  "name": "grio-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "nodemon test.js"
+  },
+  "author": "ctirrell",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.0.0",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
